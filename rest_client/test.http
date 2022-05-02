@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:3000
+@route = /test
+
+
+###
+GET {{baseUrl}}{{route}}
+###
+
+###
+POST {{baseUrl}}{{route}}
+Content-Type: application/json
+
+{
+  "nome": "Ana"
+}
+###
